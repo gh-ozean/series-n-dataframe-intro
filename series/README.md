@@ -3,5 +3,8 @@
 
 The passed `index` is a list of axis labels depending on what data is. [[implementation]](series_intro.py)
 
+## Series is ndarray-like
+`Series` acts very similarly to a `ndarray`, and is a valid argument to most `NumPy` functions. However, operations such as slicing will also slice the index.
+
 ## References
 - [Series](https://pandas.pydata.org/pandas-docs/stable/user_guide/dsintro.html#series)
